@@ -6,6 +6,6 @@ test('renders learn react link', () => {
   render(<Simple />);
   const linkElement = screen.getByText(/Hello/i);
   console.log(linkElement)
-  expect(linkElement).toHaveStyle('color:blue')
+  expect(linkElement).toHaveStyle('color:red')
   expect(linkElement).toBeInTheDocument();
 });
